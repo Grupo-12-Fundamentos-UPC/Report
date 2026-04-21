@@ -44,8 +44,8 @@
   <tr>
     <td align="center">TB1</td>
     <td>//2026</td>
-    <td> Integrante <br> Integrante <br> Billy Ruiz <br> Santiago Gordillo <br> Integrante </td>
-    <td> Realizamos los capítulos 1 y 2 según la rúbrica de manera conjunta y eficiente.  </td>
+    <td> Integrante <br> Integrante <br> Integrante <br> Integrante <br> Integrante </td>
+    <td> Realizamos los capítulos ... según la rúbrica de manera conjunta y eficiente.  </td>
   </tr>
 </table>
 
