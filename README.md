@@ -224,8 +224,6 @@ soluciones de software.</td>
 
 ## 3.1. To-be Scenario Mapping
 
-El To-be Scenario Mapping nos permite representar cómo debería desarrollarse la experiencia de los usuarios principales dentro de Hairy Paws una vez implementada la solución.
-
 ### To-be Scenario Mapping: Adoptante potencial
 
 **Escenario:** Un usuario desea encontrar una mascota compatible con su estilo de vida y completar un proceso de adopción confiable mediante Hairy Paws.
@@ -259,8 +257,6 @@ El To-be Scenario Mapping nos permite representar cómo debería desarrollarse l
 ---
 
 ## 3.2. User Stories
-
-A continuación, se presentan las historias de usuario y las historias técnicas que describen los requisitos principales de Hairy Paws. Las historias se organizan por épicas para facilitar su trazabilidad con los módulos funcionales y arquitectónicos del sistema.
 
 | User/Technical Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |---|---|---|---|---|
@@ -353,3 +349,71 @@ A continuación, se presentan las historias de usuario y las historias técnicas
 | 35 | TS10 | API de notificaciones | Como desarrollador, quiero implementar un servicio de notificaciones, para informar cambios relevantes a los usuarios. | 5 | Media |
 | 36 | US24 | Recibir notificaciones | Como usuario, quiero recibir notificaciones sobre solicitudes, visitas, donaciones y eventos, para mantenerme informado sobre mis procesos activos. | 3 | Media |
 | 37 | US25 | Mensajería entre partes | Como adoptante, dueño u ONG, quiero comunicarme dentro de la plataforma, para resolver dudas sin depender de canales externos. | 8 | Baja |
+
+## 3.4. Impact Mapping
+
+### Business Goal 1: Incrementar la confianza en los procesos de adopción y reubicación de mascotas
+
+**Objetivo:** Lograr que adoptantes, dueños y ONGs perciban Hairy Paws como una plataforma segura y confiable para gestionar procesos de adopción responsable.
+
+| Elemento | Descripción |
+|---|---|
+| **Actores involucrados** | Adoptantes, dueños de mascotas, representantes de ONGs y administradores de la plataforma. |
+| **Impacto esperado** | Los usuarios estarán más dispuestos a participar en procesos de adopción o reubicación porque podrán identificar perfiles completos, usuarios registrados y organizaciones verificadas. |
+| **Entregables relacionados** | Registro de usuario, inicio de sesión, edición de perfil, verificación de identidad, verificación de ONG y control de acceso por roles. |
+| **Historias relacionadas** | US04, US05, US07, US08, TS01, TS02, TS03, TS11. |
+
+### Business Goal 2: Facilitar la publicación y administración de mascotas disponibles para adopción
+
+**Objetivo:** Permitir que dueños y ONGs registren información clara, completa y actualizada sobre las mascotas disponibles, reduciendo la informalidad del proceso.
+
+| Elemento | Descripción |
+|---|---|
+| **Actores involucrados** | Dueños que necesitan reubicar mascotas, ONGs de protección animal y adoptantes potenciales. |
+| **Impacto esperado** | Los responsables de mascotas podrán publicar perfiles más completos, mientras que los adoptantes tendrán información suficiente para tomar mejores decisiones. |
+| **Entregables relacionados** | Registro de mascotas, edición de información, carga de imágenes, consulta de detalle y persistencia de datos de mascotas. |
+| **Historias relacionadas** | US09, US10, US11, US13, TS04, TS12. |
+
+### Business Goal 3: Mejorar la búsqueda y selección de mascotas compatibles con los adoptantes
+
+**Objetivo:** Reducir la incertidumbre del adoptante mediante filtros, perfiles detallados y herramientas que permitan evaluar la compatibilidad antes de iniciar una solicitud formal.
+
+| Elemento | Descripción |
+|---|---|
+| **Actores involucrados** | Adoptantes potenciales, dueños de mascotas y ONGs. |
+| **Impacto esperado** | Los adoptantes podrán encontrar mascotas alineadas con su estilo de vida, vivienda, disponibilidad y preferencias, evitando decisiones apresuradas. |
+| **Entregables relacionados** | Búsqueda con filtros, visualización de perfiles, favoritos y API de búsqueda de mascotas. |
+| **Historias relacionadas** | US12, US13, US14, TS05. |
+
+### Business Goal 4: Ordenar el flujo de adopción desde la solicitud hasta la confirmación
+
+**Objetivo:** Estandarizar el proceso de adopción para que las solicitudes, evaluaciones, visitas y estados sean gestionados dentro de la plataforma.
+
+| Elemento | Descripción |
+|---|---|
+| **Actores involucrados** | Adoptantes, dueños de mascotas y representantes de ONGs. |
+| **Impacto esperado** | Las partes involucradas tendrán mayor claridad sobre el avance del proceso, evitando conversaciones dispersas, pérdida de información o decisiones sin seguimiento. |
+| **Entregables relacionados** | Solicitudes de adopción, evaluación de solicitudes, programación de visitas, seguimiento de estados y API de adopciones. |
+| **Historias relacionadas** | US15, US16, US17, US18, TS06, TS07. |
+
+### Business Goal 5: Apoyar la sostenibilidad operativa de las ONGs mediante donaciones y eventos
+
+**Objetivo:** Brindar a las ONGs herramientas digitales para publicar necesidades, registrar donaciones, confirmar recepción de aportes y convocar actividades de bienestar animal.
+
+| Elemento | Descripción |
+|---|---|
+| **Actores involucrados** | ONGs, donantes, voluntarios y usuarios interesados en apoyar causas de protección animal. |
+| **Impacto esperado** | Las ONGs podrán mejorar su visibilidad, organizar mejor sus campañas y ofrecer mayor transparencia sobre las donaciones recibidas. |
+| **Entregables relacionados** | Perfil de ONG, registro de intención de donación, confirmación de donaciones, publicación de eventos e inscripción de participantes. |
+| **Historias relacionadas** | US19, US20, US21, US22, US23, TS08, TS09. |
+
+### Business Goal 6: Mantener informados a los usuarios durante los procesos activos
+
+**Objetivo:** Reducir la falta de comunicación entre adoptantes, dueños y ONGs mediante notificaciones y mensajería interna asociada a procesos concretos.
+
+| Elemento | Descripción |
+|---|---|
+| **Actores involucrados** | Adoptantes, dueños, ONGs y administradores de la plataforma. |
+| **Impacto esperado** | Los usuarios podrán dar seguimiento a solicitudes, visitas, eventos y donaciones sin depender exclusivamente de canales externos como WhatsApp o redes sociales. |
+| **Entregables relacionados** | Notificaciones, mensajería interna, cambios de estado y consulta de avisos por usuario. |
+| **Historias relacionadas** | US24, US25, TS10. |
