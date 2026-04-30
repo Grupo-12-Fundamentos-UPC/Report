@@ -213,3 +213,16 @@ soluciones de software.</td>
 ## 1.1 Startup Profile
 
 ### 1.1.1 Descripción de la Startup
+
+# Capítulo II: Requirements & Analysis
+
+## 1.1 Startup Profile
+
+### 1.1.1 Descripción de la Startup
+
+# Capítulo III: Requirements Specification
+
+## 3.1 To-be Scenario Mapping
+## 3.2 User Stories
+## 3.3 Product Backlog
+## 3.4 Impact Mapping
